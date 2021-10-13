@@ -1,6 +1,7 @@
 import s from './Footer.module.scss'
 import InfoMenu from './infoMenu/InfoMenu';
 import Mailing from './mailing/Mailing';
+import ShopMenu from './shopMenu/ShopMenu';
 
 function Footer() {
     return (
@@ -9,7 +10,7 @@ function Footer() {
                 <div className={s.inner}>
                     <Mailing/>
                     <InfoMenu/>
-                    Secondmenu
+                    <ShopMenu/>
                     Social
                 </div>
                 Contract 
