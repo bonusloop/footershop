@@ -10,26 +10,26 @@ function Social() {
             <ul className={s.list}>
                 <li className={s.item}>
                     <a className={s.link}
-                        href="/"><img className={s.instagram}
+                        href="/"><img className={s.imgSocial}
                                     src={instagram}
                                     alt=""/>
                     </a>
                 </li>
                 <li className={s.item}>
                     <a className={s.link}
-                        href="/"><img className={s.vk}
+                        href="/"><img className={s.imgSocial}
                                     src={vk}
                                     alt=""/></a>
                 </li>
                 <li className={s.item}>
                     <a className={s.link}
-                        href="/"><img className={s.facebook}
+                        href="/"><img className={s.imgSocial}
                                     src={facebook}
                                     alt=""/></a>
                 </li>
                 <li className={s.item}>
                     <a className={s.link}
-                        href="/"><img className={s.youtube}
+                        href="/"><img className={s.imgSocial}
                                     src={youtube}
                                     alt=""/></a></li>
         </ul>

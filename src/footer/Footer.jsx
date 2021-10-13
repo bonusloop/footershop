@@ -1,3 +1,4 @@
+import Contract from './contract/Contract';
 import s from './Footer.module.scss'
 import InfoMenu from './infoMenu/InfoMenu';
 import Mailing from './mailing/Mailing';
@@ -14,7 +15,7 @@ function Footer() {
                     <ShopMenu/>
                     <Social/>
                 </div>
-                Contract 
+                <Contract/>
             </div>
         </div>
     );
