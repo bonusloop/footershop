@@ -2,16 +2,17 @@ import s from './Footer.module.scss'
 import InfoMenu from './infoMenu/InfoMenu';
 import Mailing from './mailing/Mailing';
 import ShopMenu from './shopMenu/ShopMenu';
+import Social from './social/Social';
 
 function Footer() {
     return (
         <div className={s.footer}>
-            <div className="container">
+            <div className={s.wrap}>
                 <div className={s.inner}>
                     <Mailing/>
                     <InfoMenu/>
                     <ShopMenu/>
-                    Social
+                    <Social/>
                 </div>
                 Contract 
             </div>

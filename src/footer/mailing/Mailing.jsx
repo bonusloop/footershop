@@ -3,7 +3,7 @@ import React from "react";
 
 function Mailing() {
     return (
-        <div className={s.email}>
+        <div className={s.mailing}>
             <p className={s.emailText}>Подпишитесь на нашу рассылку <br/>
             и узнавайте о акция быстрее</p>
             <input className={s.emailInput} type="url" name="sait" placeholder="Введите ваш e-mail:"/>
