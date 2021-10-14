@@ -1,9 +1,11 @@
 .list{
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 .link{
     color: #2F3035;
+    text-decoration: none;
 }
 .item__right{
     margin: 0 0 20px 80px;

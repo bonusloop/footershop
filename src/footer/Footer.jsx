@@ -8,7 +8,7 @@ import Social from './social/Social';
 function Footer() {
     return (
         <div className={s.footer}>
-            <div className={s.wrap}>
+            <div className="container">
                 <div className={s.inner}>
                     <Mailing/>
                     <InfoMenu/>
